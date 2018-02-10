@@ -3,12 +3,44 @@
         padding: 0;
     }
     
+    #color-container {
+        width: 400px;
+        height: 120px;
+        outline: 2px solid black;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    
+    #red,
+    #yellow,
+    #blue {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 23px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 0px 0 gray;
+    }
+    
+    #red {
+        background-color: red;
+    }
+    
+    #yellow {
+        background-color: yellow;
+    }
+    
+    #blue {
+        background-color: blue;
+    }
+    
     .grid {
         outline: 2px solid black;
         width: 400px;
         height: 400px;
         margin: 0 auto;
-        margin-top: 200px;
+        margin-top: 20px;
     }
     
     .cell {
