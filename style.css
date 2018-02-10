@@ -1,0 +1,21 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .grid {
+        outline: 2px solid black;
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+    
+    .cell {
+        outline: 2px solid black;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
