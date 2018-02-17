@@ -18,29 +18,32 @@
         margin: 0 auto;
     }
     
-    #red,
-    #yellow,
-    #blue {
+    .color{
         width: 100px;
         height: 100px;
         display: inline-block;
         margin-top: 10px;
         margin-left: 23px;
+        outline: 1px solid black
+    }
+
+    .color-box{
+        width: 100px;
+        height: 100px;
         border-radius: 10px;
-        box-shadow: 1px 1px 0px 0 gray;
     }
     
-    #red {
+    #red, .red {
         background-color: red;
     }
     
-    #yellow {
+    #yellow, .yellow {
         background-color: yellow;
     }
     
-    #blue {
+    #blue, .blue {
         background-color: blue;
-    }
+        }
     
     .grid {
         outline: 2px solid black;
