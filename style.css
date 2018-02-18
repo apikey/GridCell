@@ -61,3 +61,11 @@
         margin-left: 8px;
         margin-top: 8px;
     }
+
+    .drop-target 
+    {
+        background-color: bisque;
+        border: 2.5px solid goldenrod;
+        width: 115px;
+        height: 115px;
+    }
