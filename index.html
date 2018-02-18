@@ -52,9 +52,14 @@
                 target.style.transform =
                 'translate(' + x + 'px, ' + y + 'px)';
 
-            // update the posiion attributes
+            // update the position attributes
             target.setAttribute('data-x', x);
             target.setAttribute('data-y', y);
+
+            // make the draggable element above other element
+            target.style.position = "absolute";
+            target.style.zIndex = "99";
+            console.log("target:", target);
         }
 
         function dragEndListener(event) {
@@ -63,6 +68,10 @@
                 'translate(' + 0 + 'px, ' + 0 + 'px)';
             event.target.setAttribute('data-x', 0);
             event.target.setAttribute('data-y', 0);
+           
+            // return draggable element position back to static
+            event.target.style.position = "static";
+            event.target.style.zIndex = "-1";
         }
 
 
